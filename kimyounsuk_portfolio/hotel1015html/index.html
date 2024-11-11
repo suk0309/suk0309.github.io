@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .wrap {
+        width: 1600px;
+        margin: auto;
+    }
+
+    .top {
+        background-color: black;
+        display: flex;
+        justify-content: flex-end;
+        padding-top: 5px;
+        padding-bottom: 0px;
+        padding-right: 20px;
+        color: white;
+    }
+
+    .head-bg {
+        background-color: black;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1%;
+    }
+
+    .logo {
+        width: 30px;
+        padding-left: 20px;
+    }
+
+
+    nav ul {
+        width: max-content;
+        margin: auto;
+    }
+
+    nav ul li {
+        display: inline-block;
+        list-style: none;
+        margin: 0 30px;
+    }
+
+    nav li a {
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+    }
+
+    main {}
+
+    video::-webkit-media-controls {
+        display: none;
+    }
+
+    main video {
+        object-fit: cover;
+    }
+
+
+    .graybox {
+        background-color: grey;
+        display: flex;
+        justify-content: flex-end;
+        height: 70px;
+        margin-top: -1%;
+    }
+
+    .graybox ul {
+        width: max-content;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 20px;
+        margin: 0 30px;
+
+    }
+
+    .graybox ul li {
+        list-style: none;
+        display: inline-block;
+        margin: 0 30px;
+    }
+
+    .graybox ul li a {
+        color: white;
+        font-size: 20px;
+    }
+
+    .dou {
+        background: url(douimg.jpg) no-repeat;
+        height: 952px;
+        background-size: 100% 100%;
+    }
+
+    .dt {
+        color: white;
+        text-align: center;
+        font-size: 100px;
+        padding: 500px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode',
+            'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    .a1 {
+        background-color: gray;
+        width: 577px;
+        height: 330px;
+        margin-top: 400px;
+
+    }
+
+
+    .gray2 {
+        font-size: 70px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode',
+            'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        text-align: center;
+        color: white;
+        padding-top: 50px;
+    }
+
+    .gray3 {
+        font-size: 17px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        color: white;
+        padding-top: 50px;
+    }
+
+    .b1 {
+        align-content: center;
+        display: flex;
+        margin-top: 300px;
+        justify-content: center;
+        margin-bottom: 300px;
+    }
+
+    .st1 {
+        margin: 0 20px;
+        background: url(e2.jpg) no-repeat;
+        width: 1000px;
+        color: rgb(255, 255, 255);
+        font-size: 120px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: end;
+        padding-right: 20px;
+    }
+
+    .st2 {
+        margin: 0 20px;
+        height: 600px;
+        background: url(at2.jpg)no-repeat;
+        width: 1000px;
+        color: rgb(255, 255, 255);
+        font-size: 120px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: end;
+        padding-right: 20px;
+    }
+
+    .ss {
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    .c1 {
+        background: url(bbb1.jpg) no-repeat;
+        height: 550px;
+        background-size: 100% 100%;
+
+    }
+
+    .smart1 {
+        margin-top: 200px;
+        justify-content: center;
+        display: flex;
+    }
+
+
+
+    .smar2 {
+        background: url(smartimg1.jpg);
+        background-size: 100% 100%;
+        width: 1200px;
+        height: 700px;
+        color: rgb(255, 255, 255);
+        font-size: 120px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: end;
+        padding-right: 20px;
+    }
+
+    .ac1 {
+        font-size: 27px;
+        color: white;
+        padding-top: 350px;
+        padding-left: 25px;
+        text-align: left;
+    }
+
+    .sp1 {
+        font-size: 27px;
+        color: white(255, 255, 255);
+        padding-top: 350px;
+        padding-left: 25px;
+        text-align: left;
+    }
+
+    footer {
+        background-color: rgb(92, 88, 88);
+
+    }
+
+    .flogo {
+        padding-top: 20px;
+        padding-left: 100px;
+        width: 350px;
+    }
+
+    .f1 {
+        height: 65px;
+        color: white;
+        font-size: 20px;
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .f2 {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .ftext {
+        font-size: 1rem;
+        color: white;
+        padding-top: 10px;
+        padding-right: 100px;
+        padding-bottom: 17px;
+    }
+
+
+    @media (max-width:600px) {
+        .wrap {
+            width: 96%;
+            margin: auto;
+        }
+
+        .top {
+            display: none;
+        }
+
+        header,
+        .head-bg,
+        .foot,
+        .b1 {
+            /*가로배치를 세로 열로 변환*/
+            flex-direction: column;
+            flex-wrap: wrap;
+            gap: 0.7rem;
+        }
+
+        .logo {
+            width: 40%;
+            padding-left: 0rem;
+            margin: 5px auto;
+            margin-bottom: 0px;
+        }
+
+        nav {
+            position: relative;
+            top: 0;
+            left: -30%;
+            transform: translateX(50%);
+        }
+
+        nav ul {
+            margin: 1rem auto;
+            margin-top: 10px;
+
+        }
+
+        nav ul li {
+            display: inline-block;
+            list-style: none;
+            margin: 0 10px;
+        }
+
+        nav li a {
+            text-decoration: none;
+            color: white;
+            font-size: 15px;
+            text-align: center;
+        }
+
+        main {
+            height: 600px;
+        }
+
+        main video {
+            height: 600px;
+        }
+
+        .dou {
+            height: 600px;
+        }
+
+        .f1 {
+            width: 20%;
+            height: 65px;
+            color: white;
+            font-size: 50%;
+            text-align: center;
+            padding-top: 10px;
+        }
+
+        .ftext {
+            font-size: 10px;
+            color: white;
+            padding-top: 10px;
+            padding-right: 0px;
+            padding-bottom: 17px;
+        }
+
+        .b1 {
+            flex-wrap: wrap;
+            margin: 0 auto;
+        }
+
+        .st1 {
+            width: 96%;
+            font-size: 80px;
+            margin-bottom: 20px;
+        }
+
+        .st2 {
+            width: 96%;
+            font-size: 80px;
+            margin-bottom: 300px;
+        }
+
+        .sp1 {
+            font-size: 15px;
+            color: white;
+            padding-top: 420px;
+            padding-left: 25px;
+            text-align: left;
+        }
+
+        .st1,
+        .sp1 {
+            padding-bottom: 35px;
+        }
+
+        .ac1 {
+            font-size: 15px;
+            color: white;
+            padding-top: 420px;
+            padding-left: 25px;
+            text-align: left;
+        }
+
+        .ss {
+            width: 98%;
+            margin: auto;
+        }
+
+        .graybox ul li a {
+            color: white;
+            font-size: 15px;
+        }
+
+        .gray3 {
+            font-size: 0.8rem;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: left;
+            color: white;
+            padding-top: 10px;
+        }
+
+        .gray2 {
+            font-size: 1rem;
+            padding: 10%;
+        }
+
+        .ss {
+            margin: 5rem auto;
+        }
+
+
+
+
+        .a1 {
+            margin: 30% 0.5%;
+            padding: 0% 1%;
+            z-index: 9;
+            height: 150px;
+            width: 50%;
+        }
+
+        .gray3 {
+            display: none;
+        }
+
+        .smart1 {
+            margin-top: 5%;
+
+        }
+
+        .smar2 {
+            position: relative;
+            left: 0px;
+            z-index: 0;
+            width: 370px;
+            background: url(smartimg1.jpg);
+            background-size: 100% 100%;
+            height: 400px;
+            color: rgb(255, 255, 255);
+            font-size: 80px;
+            font-family: Arial, Helvetica, sans-serif;
+            padding-right: 0px;
+        }
+
+
+        .graybox ul {
+            width: max-content;
+            display: flex;
+            justify-content: space-between;
+            padding-bottom: 2px;
+            text-align: centert;
+            font-size: 3px;
+        }
+
+        .f1 {
+            width: 98%;
+            margin: auto;
+        }
+
+        .flogo {
+            padding-top: 1rem;
+            padding-left: 0px;
+            width: 80px;
+        }
+
+        .flogo li {
+            padding-left: 5px;
+        }
+
+        .st2 {
+            width: 98%;
+            font-size: 80px;
+            margin-bottom: 20%;
+        }
+
+        .ftext {
+            line-height: 1rem;
+            font-size: 0.62rem;
+            font-weight: normal;
+        }
+    }
+
+</style>
+
+<body>
+    <div class="top">
+        <span>home</span>
+    </div>
+
+    <div class="head-bg">
+        <div class="logo">
+            <img src="wlogo-w.png">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">객실</a></li>
+                <li><a href="#">다이닝</a></li>
+                <li><a href="#">액티비티</a></li>
+                <li><a href="#">예약</a></li>
+                <li><a href="#">로그인</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <main>
+        <video id="mvbg" autoplay muted loop>
+            <source src="mp4_1080p.mp4" type="video/mp4">
+        </video>
+    </main>
+
+    <div class="graybox">
+        <ul>
+            <li><a href="#">숙박기간</a></li>
+            <li><a href="#">객실</a></li>
+            <li><a href="#">어른</a></li>
+            <li><a href="#">아이</a></li>
+        </ul>
+    </div>
+
+    <div class="dou">
+        <div class="dt">
+            <p>Douglas Deluxe</p>
+        </div>
+    </div>
+
+    <section>
+        <div class="ss">
+            <div class="a1">
+                <div class="gray2">
+                    <p1><b>SMART OFFER</b></p1>
+                </div>
+                <div class="gray3">
+                    <p2> 당신의 소중한 시간이 더 특별하게 빛날 수 있도록,<br><br>
+                        당신만을 위한 추천 상품과 서비스를 확인해 보세요.</p2>
+                </div>
+            </div>
+            <div class="smart1">
+                <div class="smar2">
+                    <b>STAY</b>
+                </div>
+            </div>
+        </div>
+        <div class="b1 wrap">
+            <div class="st1">
+                <b>EAT</b>
+                <div class="sp1">
+                    <p>월드 클래스 셰프들이 정성스럽게 준비한<br>푸드들과 함께
+                        맛있는 여행을 시작해 보시기 바랍니다.</p>
+                </div>
+            </div>
+            <div class="st2">
+                <b>ACTIVITY</b>
+                <div class="ac1">
+                    <p>여행에 즐거움을 더하는<br>
+                        워커힐 액티비티 프로그램</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="f1">
+            <p>개인정보처리방침이용약관&nbsp; &nbsp;&nbsp; | &nbsp; &nbsp;&nbsp;오시는 길
+                &nbsp; &nbsp;&nbsp; | &nbsp; &nbsp;&nbsp;자주하는 질문&nbsp; &nbsp;&nbsp; | &nbsp; &nbsp;&nbsp;
+                연락처 안내&nbsp; &nbsp;&nbsp; |&nbsp; &nbsp;&nbsp;고객의 소리&nbsp; &nbsp;&nbsp; |
+                &nbsp; &nbsp;&nbsp;사이트맵 </p>
+        </div>
+        <div class="f2">
+            <div class="flogo">
+                <img src="wlogo-w.png" width="120">
+            </div>
+            <div class="ftext">
+                <P>
+                    호텔 소재지: 04963)서울특별시 광진구 워커힐로 177 | 대표이사:이호정<br>
+                    통신판매 신고번호:제2015-서울광진-0710호 | 사업자등록번호:124-81-00718<br>
+                    법인명:SK네트웍스(주)경기도 수원시 팔달구 매산로52번길 4,3층(매산로2가)<br>
+                    대표번호:1670-0005 | 팩스:02-452-6867 | 이메일 : contact@walkerhill.xom<br>
+                    COPYRIGHT 2017 SK NETWORKS CO.,LTD.WALKERHILLALL RIGHTS RESERVED.
+                </P>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
