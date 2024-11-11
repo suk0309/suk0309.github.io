@@ -1,0 +1,20 @@
+.textbook_client
+{
+    height: 35vw;
+}
+
+.banner_container
+{
+    display: flex;
+    justify-content: space-between;
+
+    padding-top: 10vw;
+}
+
+.client_banner
+{
+    width: 35vw;
+    height: 15vw;
+
+    border-radius: 3vw;
+}
