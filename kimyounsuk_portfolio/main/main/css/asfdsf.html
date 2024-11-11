@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        *
+        {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        img
+        {
+            max-width: 100%;
+        }
+
+        .wrap
+        {
+            width: 96%;
+            margin: auto;
+        }
+
+        main
+        {
+            height: 400px;
+            background: url(../../연습/HTML/gucci_wallpaper.jpg) no-repeat center;
+            background-size: 100% 100%;
+        }
+
+        .ct1
+        {
+            margin: auto;
+            width: 1200px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .ct1
+        {
+            width: 550px;
+        }
+
+        .c1 img
+        {
+            width: 100%;
+        }
+
+        .ct2
+        {
+            margin: auto;
+            width: 1600px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .ct2
+        {
+            width: 380px;
+            font-size: 25px;
+        }
+
+        .c2 img
+        {
+            width: 100%;
+        }
+
+        footer
+            {
+                display: flex;
+                justify-content: space-between;
+            }
+
+        .foot
+        {
+            width: 1200px;
+            margin: auto;
+            display: flex;
+            justify-content: flex-start;
+        }
+
+        .foot .left
+            {
+                width: 200px;
+                height: 150px;
+                background: pink;
+            }
+
+        .foot .left img
+        {
+            width: 100%;
+        }
+
+        .foot .right
+        {
+            background: aqua;
+            height: 150px;
+        }
+
+        .right
+        {
+            width: 80%;
+            margin: autob;
+        }
+
+        @media(max-width: 600px)
+        {
+            .wrap
+            {
+                width: 96%;
+                margin: auto;
+            }
+            header, .ct1, .foot
+            {
+                flex-direction: column;
+                flex-wrap: wrap;
+                gap: 1.5rem;
+            }
+            .c1
+            {
+                width: 90%;
+                margin: auto;
+            }
+            .c1
+            {
+                font-size: 0.9rem;
+            }
+
+            .ct2
+            {
+                width: 96%;
+                margin: auto;
+                flex-wrap: wrap;
+            }
+
+            .c2
+            {
+                width: 48%;
+                font-size: 0.8rem;
+            }
+
+
+
+        }
+    </style>
+
+</head>
+<body>
+    <main></main>
+    <div class="wrap">
+        <div class="ct1">
+            <div class="c1">
+                <img src="../../웹프로그래밍_정혜원/img/choko.png" alt="">
+            </div>
+            <div class="c">
+                <img src="../../웹프로그래밍_정혜원/img/choko.png" alt="">
+            </div>
+        </div>
+        <div class="ct2">
+            <div class="c2">
+                <img src="../../웹프로그래밍_정혜원/img/cider.png" alt="">
+            </div>
+            <div class="c2">
+                <img src="../../웹프로그래밍_정혜원/img/cider.png" alt="">
+            </div>
+            <div class="c2">
+                <img src="../../웹프로그래밍_정혜원/img/cider.png" alt="">
+            </div>
+            <div class="c2">
+                <img src="../../웹프로그래밍_정혜원/img/cider.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="foot wrap">
+            <div class="left">
+
+            </div>
+            <div class="right">
+
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

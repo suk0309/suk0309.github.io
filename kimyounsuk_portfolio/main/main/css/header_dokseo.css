@@ -1,0 +1,48 @@
+
+        header
+        {
+            position: absolute; /* -----  static 기준으로, 일반적인 문서 흐름에 따라 배치 -----   */
+            z-index: 2;
+        }
+
+        .header_wrap
+        {
+            width: 210%;
+            display: flex;
+        }
+
+        .logo
+        {
+            margin-top: 2vw;
+        }
+
+        .logo img
+        {
+            width: 8vw;
+        }
+
+        .menu_box
+        {
+            margin-top: 1vw;
+            width: 3vw;
+            height: 2vw;
+            padding: 1.3vw 1vw;
+        }
+
+        .menu_box img
+        {
+            width: 3vw;
+        }
+
+        /* -----   지학사는 비움에 뜻을 세운 ~~  ----- */
+        .main-text p
+        {
+            position: absolute;
+            top: 18vw;
+            left: 27vw;
+            z-index: 1;
+
+            color: white;
+            font-weight: bold;
+            font-size: 3vw;
+        }

@@ -1,0 +1,77 @@
+.main-visual
+{
+    position: relative;
+}
+
+.main
+{
+    height: 940px;
+}
+
+.main-visual .main img
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 0 0 0 20vw;
+}
+
+.color_box
+{   
+    z-index: -5;
+    position: absolute;
+    top: 500px;
+    width: 1920px;
+    height: 1000px;
+    background-color: #e4f7fc;
+}
+
+.dokseo_book
+{
+    padding-top: 200px;
+}
+
+.dokseo_book h1
+{
+    margin-bottom: 20px;
+}
+
+.swiper-slide a img
+{
+    width: 330px;
+}
+
+.dokseo_video
+{
+    padding-top: 200px;
+}
+.dokseo_video h1
+{
+    margin-bottom: 20px;
+}
+.dokseo_video iframe
+{
+    display: flex;
+    align-items: center;
+    width: 1400px;
+    height: 800px;
+}
+
+.subscribe
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.subs
+{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.subscribe_left, .subscribe_right
+{
+    background-color: cornflowerblue;
+    border-radius: 50px;
+    width: 700px;
+    height: 300px;
+}

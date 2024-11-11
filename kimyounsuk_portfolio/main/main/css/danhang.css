@@ -1,0 +1,108 @@
+.main
+{
+    height: 940px;
+}
+
+.main-visual, .main img 
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 0 0 0 20vw;
+}
+
+.info img
+{
+    width: 100%;
+}
+
+.grad
+{
+    height: 100px;
+    background: linear-gradient(to bottom, #f8f7f2, #fff);
+    position: relative;
+    z-index: -5;
+    bottom: 30px;
+}
+
+.book_trigger
+{
+    padding-top: 250px;
+}
+
+.trigger
+{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.trigger_left
+{
+    width: 800px;
+    height: 2200px;
+}
+
+.trigger_text
+{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+
+    padding: 200px 0;
+}
+
+.trigger_left h1, .trigger_left p
+{
+    text-align: center;
+}
+
+.trigger_left h1
+{
+    font-size: 4rem;
+}
+
+.trigger_left p
+{
+    font-size: 1.4rem;
+    width: 500px;
+    font-weight: 500;
+}
+
+.trigger_right
+{
+    width: 800px;
+    height: max-content;
+}
+
+.book_img
+{
+    width: 400px;
+    height: 500px;
+    margin-top: 50px;
+}
+
+.book_img img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.subscribe
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.subs
+{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.subscribe_left, .subscribe_right
+{
+    background-color: cornflowerblue;
+    border-radius: 50px;
+    width: 700px;
+    height: 300px;
+}

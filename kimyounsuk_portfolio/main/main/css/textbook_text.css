@@ -1,0 +1,29 @@
+.textbook_wrap
+{
+    margin: 0 auto;
+    width: 80%;
+    height: 50%;
+}
+
+.textbook_wrap .text_box
+{
+    text-align: center;
+    margin: 4vw 0;
+}
+
+.textbook_wrap .text_box h1
+{
+    font-size: 2vw;
+    margin-bottom: 2vw;
+}
+
+.textbook_wrap .text_box p
+{
+    font-size: 1vw;
+    margin-bottom: 2vw;
+}
+
+.textbook_intro
+{
+    height: 40vw;
+}

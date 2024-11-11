@@ -1,0 +1,20 @@
+video::-webkit-media-controls
+{
+    display:none !important;
+}
+
+.main-visual
+{
+    position: absolute; /* -----    z-index 값을 설정할 수 있고, 독립된 레이아웃     ----- */
+    left: 0;
+    top:-5%;
+    z-index: -1;
+}
+
+video
+{
+    width: 99vw;          /* ----- vw : 브라우저 넓이에 따라 width가 맞춰짐 ----- */
+    max-height: 100vh; /* ----- vh : 브라우저 넓이에 따라 height가 맞춰짐 ----- */
+    object-fit: fill;
+    border-radius: 0 0 0 20vw;  /* ----- 좌측하단 모서리 둥글게 ----- */
+}

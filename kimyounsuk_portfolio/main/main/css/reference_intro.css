@@ -1,0 +1,64 @@
+.reference-intro
+{
+    background-color: #292f36;
+    height: 50vw;
+}
+
+.deco_img
+{
+    width: 55%;
+    height: 80%;
+    border-radius: 0 23vw 24vw 0vw;
+
+    margin-top: 6.7vw;
+    margin-left: 0;
+}
+
+.reference_container
+{
+    display: flex;
+    justify-content:flex-start;
+    margin:0;
+
+    color: white;
+}
+
+.reference_text_box
+{
+    margin-top: 15vw;
+}
+
+.reference_text_box h1
+{
+    font-size: 3.0vw;
+    margin-bottom: 1.5vw;
+}
+
+.reference_text_box h5
+{
+    font-size: 1.4vw;
+    font-weight: 400;
+}
+
+.reference-collection
+{
+    display: flex;
+    justify-content: center;
+}
+
+.collection-img
+{
+    padding-top: 5vw;
+}
+
+.reference-banner_container
+{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3vw;
+}
+
+.reference_client
+{
+    height: 27vw;
+}
